@@ -22,15 +22,12 @@
   </head>
   <body>
     <header>
-      <nav class="bg-transparent">
-        <div class="container">
-          <div class="bg-primary py-4">
-            <h1>Félicité MBEY KOYMATEY</h1>
-          </div>
+      <nav class="header_nav">
+        <h1>Félicité MBEY KOYMATEY</h1>
 
-          <!-- <div
+        <div
           class="collapse navbar-collapse justify-content-end align-baseline"
-          >
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link text-warning" href="#about">Qui-suis-je?</a>
@@ -42,125 +39,35 @@
               <a class="nav-link text-warning" href="#projects">Projets</a>
             </li>
           </ul>
-          </div>-->
         </div>
       </nav>
     </header>
     <main>
-      <!-- Presentation -->
-      <section class="py-5">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-12 col-md-6">
-              <h2>Bienvenu(e) sur mon Portfolio !</h2>
-              <p>
-                Je suis Félicité MBEY KOUMATEY, développeuse web et
-                présidente-fondatrice Association Nebgue, humanitaire
-                internationnale qui intervient au faveur des enfants au Tchad.
-              </p>
-              <p>
-                J'aime tricoter les chaussons pour les poupées, ce qui me permet
-                d'être minitieuse, patiente et concentrée.
-              </p>
-            </div>
-            <div class="col-12 col-md-6">
-              <img
-                class="ma_photo"
-                src="./img/moi.jpg"
-                alt="Ma photo"
-                id="moi"
-              />
-            </div>
-          </div>
-        </div>
+      <section>
+        <img class="ma_photo" src="./img/moi.jpg" alt="Ma photo" id="moi" />
+        <h2>Bienvenu(e) sur mon Portfolio !</h2>
+        <p>
+          Je suis Félicité MBEY KOUMATEY, développeuse web,
+          présidente-fondatrice Association Nebgue, humanitaire internationnale
+          qui intervient au faveur des enfants ruraux (pauvres et orphelins) au
+          Tchad, en Afrique centrale.
+        </p>
+        <p>
+          J'aime tricoter les chaussons pour les poupées, ce qui me permet
+          d'être minitieuse, patiente et concentrée.
+        </p>
       </section>
-      <!-- Skills-->
-      <section class="py-5" id="skills">
-        <div class="container">
-          <h2 class="text-center">Mes compétences</h2>
-          <div class="row gy-4">
-            <div class="col-12 col-md-6">
-              <div
-                class="text-center bg-gradient border border-1 rounded-5 mb-2 pb-3"
-              >
-                <h3>Front-end</h3>
-                <img
-                  src="./img/Boostrap.jpg"
-                  alt="image boostrap5"
-                  class="mx-1"
-                />
-                <img src="./img/CSS.png" alt="image CSS" class="mx-1" />
-                <img src="./img/HTML.png" alt="image HTML" class="mx-1" />
-                <img src="./img/Js.png" alt="image JavaScript" class="mx-1" />
-                <img
-                  src="./img/vue.js.jpg"
-                  alt="framework vue.js"
-                  class="mx-1"
-                />
-                <img src="./img/agence-seo.jpg" alt="image SEO" />
-              </div>
-              <div
-                class="text-center bg-gradient border border-1 rounded-5 mb-2 pb-3"
-              >
-                <h3>Back-end</h3>
-
-                <img src="./img/node.js.png" alt="image node-js" />
-                <img src="./img/MySql.jpg" alt="image MySql" />
-                <img
-                  src="./img/sequelize.png"
-                  alt="image sequelize"
-                  class="mx-1"
-                />
-                <img
-                  src="./img/mongoDB.jpg"
-                  alt="image mongoDB base des données non relationelle"
-                  class="mx-1"
-                />
-              </div>
-
-              <div
-                class="text-center bg-gradient border border-1 rounded-5 mb-2 pb-3"
-              >
-                <h3>Environnements</h3>
-
-                <img src="./img/vscode.jpg" alt="image vscode" />
-                <img src="./img/github.png" alt="image github" />
-                <img src="./img/gitkraken.png" alt="image gitkraken" />
-                <img src="./img/LogoWordPress.jpg" alt="image vscode" />
-                <img src="./img/postman.png" alt="image postman" />
-              </div>
-
-              <div class="col-12 col-md-6 mt-5">
-                <img class="align-items-center" src="#" />
-                <div class="text-center mt-5">
-                  <a
-                    class="text-black text-decoration-none fw-bold fs-5 bg-gradient border border-1 rounded-5 p-3"
-                    href="./img/skills/CV-MBEY KOUMATEY.pdf"
-                    download=""
-                    >Télécharger CV</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section>
+        <h2>Mes compétences</h2>
       </section>
-      <!-- Projects -->
-      <section class="py-5">
+
+      <section>
         <h2>Mes Projets</h2>
       </section>
-
-      <!-- Centre d'intérêts -->
-      <section>Engagement associatif</section>
     </main>
-    <footer class="bg-primary border-top py-3">
-      <div class="container">
-        <div class="row gy-4 gy-md-0 mt-4">
-          <section class="col-xs-3 col-sm-4 col-md-6 col-lg-12 text-center">
-            <h2 class="fw-bold text-white">
-              Félicité MBEY KOUMATEY | Portfolio 2022
-            </h2>
-          </section>
+    <footer>
+      <div>
+        <div>
           <section>
             <h3>Suivez-moi</h3>
             <div>
@@ -183,8 +90,6 @@
           </section>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="https://kit.fontawesome.com/14273d579a.js"></script>
     </footer>
   </body>
 </html>
