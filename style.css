@@ -1,3 +1,17 @@
 body{
     width : auto;
 }
+.card_flex {  width: 248px;
+    margin: 0px 0px 17px 46px;}
+
+    .detail{
+        font-size: small;
+margin: 1px -31px -5px 14px;
+border-top-right-radius: 0;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 219px;
+text-align: start;
+height: 5px;
+line-height: 2.1em;
+    }
