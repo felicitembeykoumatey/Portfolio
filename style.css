@@ -1,17 +1,17 @@
 body{
     width : auto;
 }
-.card_flex {  width: 248px;
-    margin: 0px 0px 17px 46px;}
-
-    .detail{
-        font-size: small;
-margin: 1px -31px -5px 14px;
-border-top-right-radius: 0;
-border-bottom-left-radius: 20px;
-border-bottom-right-radius: 20px;
-width: 219px;
-text-align: start;
-height: 5px;
-line-height: 2.1em;
-    }
+.projets{
+    margin: 0;
+padding: 13px;
+border: 0;
+font-weight: bold;
+font-size: medium;
+border-radius: 100px;
+color: var(--white);
+background-image: linear-gradient(0deg, rgba(12, 69, 240, 0.9), rgba(94, 55, 211, 0.9));
+cursor: pointer;
+transition-property: transform;
+transition-duration: 1s;
+text-decoration: none;
+}
