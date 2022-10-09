@@ -32,3 +32,14 @@ box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 border: 5px solid var(--white);
 border-radius: 25px;
 }
+.detail{
+ font-size: small;
+margin: 1px -31px -5px 14px;
+border-top-right-radius: 0;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 219px;
+text-align: start;
+height: 5px;
+line-height: 2.1em;
+}
