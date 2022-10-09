@@ -26,7 +26,7 @@ text-decoration: none;
     background-color: var(--gray) ;
 
 }
-.card {
+.card_img{
     height: 185px;
 box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 border: 5px solid var(--white);
